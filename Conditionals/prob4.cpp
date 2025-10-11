@@ -13,14 +13,14 @@ int main() {
     cout << "Enter the 3rd number : ";
     cin >> c;
     
-    if((a>c and a>b)){ 
+    if(a>c and a>b){ 
         cout <<"Greatest number is " << a;
     }
-    if ((b>c and b>a)){
+    if (b>c and b>a){
         cout << "Greatest number is " << b;
     
     }
-    if ((c>b and c>a)){
+    if (c>b and c>a){
         cout << "Greatest number is " << c;
     
     }

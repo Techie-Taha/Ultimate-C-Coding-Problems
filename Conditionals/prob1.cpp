@@ -18,7 +18,7 @@ int main() {
         cout << "Profit is " << sellingPrice - costPrice <<"$";
     }
     if (costPrice > sellingPrice) {
-        cout << "Yu lost " << costPrice - sellingPrice <<"$";
+        cout << "You lost " << costPrice - sellingPrice <<"$";
     }
     if (costPrice == sellingPrice) {
         cout << "No profit no loss";
